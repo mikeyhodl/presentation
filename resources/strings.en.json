@@ -15,6 +15,12 @@
         "",
         "For more, see /help."
     ],
+    "donate":[
+        "\uD83E\uDDA0 @Coronaviruskenyabot  *Donate*  *#STAYSAFE*",
+        "Donate to this project for  more exclusive platforms such as WhatsApp.\n",
+        "*If you'd like to donate do it* [HERE](https://mikeowino.com/donation)"
+
+    ],
     "faqs2": [
         "\uD83E\uDDA0 @Coronaviruskenyabot FAQs *#STAYSAFE*",
         "",
@@ -35,35 +41,8 @@
         "*Telephone Hotline: +254 729 471 414 / +254 732 353 535*",
         "*Toll Free Line (in Kenya): 0800 721 316*"
 
-
-
-    ],
-    "donate":[
-        "\uD83E\uDDA0 @Coronaviruskenyabot  *Donate*  *#STAYSAFE*",
-        "Donate to this project for  more exclusive platforms such as WhatsApp.\n",
-        "*If you'd like to donate do it* [HERE](https://mikeowino.com/donation)"
-
-    ],
-    "help": [
-        "\uD83E\uDDA0 @Coronaviruskenyabot Help *#STAYSAFE*",
-        "",
-        "This bot gives you up-to-date information on the worldwide spread of the COVID-19 disease.",
-        "",
-        "*/world*  \u2022  Worldwide case statistics.",
-        "*/today*  \u2022  Summary of today's cases.",
-        "*/list*  \u2022  List of countries ordered by number of cases.",
-        "*/subscribe*  \u2022  Subscribe to daily status updates with new case statistics.",
-		"*/graph [country]*  \u2022  Show a graph with a timeline of new cases of the last 40 days in one country. Type `/graph world` for worldwide cases.",
-        "*/help*  \u2022  Show this help.",
-        "",
-        "You can use this bot in any chat or group without adding it by typing `@Coronaviruskenyabot [country]`.",
-        "",
-        "—",
-        "\u2139\uFE0F For issues and feedback, [Contact Me](https://t.me/decipha).\n",
-        "Sources: [WORLDOMETERS](https://www.worldometers.info/coronavirus/country/kenya/), [WHO](https://covid19.who.int), [MOH](https://twitter.com/MOH_Kenya).\n",
-        "Data is accessed via [NovelCOVID API](https://github.com/NovelCOVID/API)."
-    ],
-    "faqs": [
+     ],
+    "faqs1": [
         "\uD83E\uDDA0 @Coronaviruskenyabot FAQs *#STAYSAFE*",
         "",
         "*From the Government*",
@@ -88,16 +67,41 @@
         "",
         "*Is there a vaccine for novel coronavirus ?*",
         "Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care."
-
-
-    
+    ],
+    "help": [
+        "\uD83E\uDDA0 @Coronaviruskenyabot Help *#STAYSAFE*",
+        "",
+        "This bot gives you up-to-date information on the worldwide spread of the COVID-19 disease.",
+        "",
+        "*/world*  \u2022  Worldwide case statistics.",
+        "*/today*  \u2022  Summary of today's cases.",
+        "*/list*  \u2022  List of countries ordered by number of cases.",
+        "*/subscribe*  \u2022  Subscribe to daily status updates with new case statistics.",
+        "*/unsubscribe*  \u2022  Unsubscribe from daily status updates.",
+        "*/setcountry*  \u2022  Set your country (for /today and daily updates).",
+        "*/[country]*  \u2022  Case statistics for one country. Replace `[country]` with the country code or country name (e.g. /ke, /kenya).",
+        "*/graph [country]*  \u2022  Show a graph with a timeline of new cases of the last 30 days in one country. Type `/graph world` for worldwide cases.",
+        "*/vacc [country]*  \u2022  Show a graph with a timeline of daily administered vaccination doses in one country. Type `/vacc world` for worldwide vaccinations.",
+        "*/map [country]*  \u2022  Show a case distribution map for one country. Type `/map world` for world map.",
+        "*/help*  \u2022  Show this help.",
+        "",
+        "",
+        "—",
+        "Sources: Worldometers.info for case statistics, Wikimedia Commons for maps, JHUCSSE for graph data, OurWorldInData.org for vaccinations.",
+        "You can use this bot in any chat or group without adding it by typing `@Coronaviruskenyabot [country]`.",
+        "",
+        "—",
+        "\u2139\uFE0F For issues and feedback, [Contact Me](https://t.me/decipha).\n",
+        "Sources: [WORLDOMETERS](https://www.worldometers.info/coronavirus/country/kenya/), [WHO](https://covid19.who.int), [MOH](https://twitter.com/MOH_Kenya).\n",
+        "Data is accessed via [NovelCOVID API](https://github.com/disease-sh/API)."
     ],
     "today": [
         "\uD83D\uDCDD Status on {:%Y-%m-%d} at {:%H:%m} UTC *#STAYSAFE*",
         "",
-        "\uD83C\uDF10 Worldwide, `{:,}` COVID-19 infections have been reported. `{:,}` infected people died.",
+        "\uD83C\uDF10 Worldwide, `{:,}` Covid-19 infections have been reported. `{:,}` infected people died.",
         "\uD83E\uDDA0 Today, there have been `{:,}` new cases.",
         "\u26B0\uFE0F The number of deaths since 0:00 UTC is `{:,}`.",
+        "\uD83D\uDC89 In total, `{:,}` vaccination doses have been administered.",
         "More: /world",
         ""
     ],
@@ -105,17 +109,19 @@
         "{} In {}, `{:,}` infections have been reported. `{:,}` infected people died.",
         "\uD83E\uDDA0 Today, there have been `{:,}` new cases.",
         "\u26B0\uFE0F The number of deaths since 0:00 UTC is `{:,}`.",
+        "\uD83D\uDC89 In total, `{:,}` vaccination doses have been administered.",
         "More: /{}",
         ""
     ],
-    "today_footer": "/list  \u2022  /setcountry  \u2022  /help",
+    "today_footer": "/list  \u2022  /graph  \u2022  /vacc  \u2022  /setcountry  \u2022  /help",
     "stats_table": [
-        "COVID-19 Statistics for *{}* {}",
+        "Covid-19 Statistics for *{}* {}",
         "",
         "\uD83E\uDDA0  `{:,}`  estimated cases",
         "\uD83C\uDF21  `{:,}`  active (`{:.1%}`)",
         "\uD83D\uDD06  `{:,}`  recovered (`{:.1%}`)",
         "\u26B0\uFE0F  `{:,}`  deaths (`{:.1%}`)",
+        "\uD83D\uDC89  `{:,}`  vaccinations doses",
         "",
         "_Today_ \uD83D\uDCC6",
         "\uD83E\uDDA0  `+ {:,}`  new cases",
@@ -125,10 +131,11 @@
     "stats_table_more": [
         "\uD83D\uDC65  `{:,}`  cases per million people",
         "\uD83D\uDC65  `{:,}` deaths per million people",
+        "\uD83D\uDC65  `{:,}` tests per million people",
         ""
     ],
     "stats_table_simple": [
-        "COVID-19 Statistics for *{}* {}",
+        "Covid-19 Statistics for *{}* {}",
         "",
         "\uD83E\uDDA0  `{:,}`  estimated cases",
         "\u26B0\uFE0F  `{:,}`  deaths (`{:.1%}`)",
@@ -137,28 +144,31 @@
     "stats_updated": "_Updated: {:%Y-%m-%d %H:%m} UTC_",
     "stats_more": "More",
     "stats_less": "Less",
-	 "stats_graph": "Show Graph",
+    "stats_graph_cases": "\uD83D\uDCC8  Cases",
+    "stats_graph_vacc": "\uD83D\uDCC8  Vaccinations",
+    "stats_map": "\uD83D\uDDFA  Map",
+    "map_caption": "Covid-19 Case Map for *{}* {}\n(Source: commons.wikimedia.org)",
     "more": "More: @Coronaviruskenyabot",
     "page_left": "\u25C0\uFE0F Page {}",
     "page_right": "Page {} \u25B6\uFE0F",
     "to_start": "\u23EA To Start",
     "to_end": "To End \u23E9",
     "list_header": "\uD83D\uDCCA Countries by *{}*\n",
-    "no_data": "Sorry, no data available! Try again later.",
-    "unknown_place": "Please use the available commands to get a reply.",
-    "no_country_set": "IFf you have not configured your country. Use /setcountry to configure it.",
+    "no_data": "Sorry, no data available for this location! Maybe try again later.",
+    "unknown_place": "Sorry, I don't know this place. Maybe you spelled it incorrectly?",
+    "no_country_set": "You have not configured your country. Use /setcountry to configure it.",
     "setcountry_start": [
-        "To set your country, send your country name.",
+        "To set your country, send me its ISO alpha-2 or alpha-3 code or its name.",
         "Send /cancel to cancel."
     ],
     "cancel": "Cancelled.",
     "setcountry_success": "Successfully set your country to *{}*.",
     "subscribe": [
-        "You have subscribed to daily case updates.",
+        "Subscribed to daily case updates.",
         "To unsubscribe, send /unsubscribe."
     ],
     "unsubscribe": [
-        "You have unsubscribed from daily updates.",
+        "Unsubscribed from daily updates.",
         "To re-subscribe, send /subscribe."
     ],
     "sort_order": "Sort order \uD83D\uDCCA",
@@ -168,5 +178,6 @@
     "sort_order_todayCases": "\uD83E\uDDA0 today",
     "sort_order_deaths": "\u26B0\uFE0F total",
     "sort_order_deathsPerOneMillion": "\u26B0\uFE0F / million",
-    "sort_order_todayDeaths": "\u26B0\uFE0F today"
+    "sort_order_todayDeaths": "\u26B0\uFE0F today",
+    "sort_order_vaccinations": "\uD83D\uDC89 total"
 }
