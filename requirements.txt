@@ -1,0 +1,5 @@
+requests
+matplotlib
+python-telegram-bot
+sparqlwrapper
+python-dotenv>=0.13.0,<1.0.0

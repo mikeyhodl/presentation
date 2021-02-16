@@ -1,0 +1,13 @@
+start - Start the bot
+help - List of other available commands
+world - Worldwide stats
+kenya -  Kenya's current stats
+graph - Graph [country]
+setcountry - Set to get notifications daily followed by i.e 'kenya'
+faqs -  Frequently Asked Questions about COVID-19
+faqs2 - requently Asked Questions about COVID-19 (CONTINUED)
+today -  Today's summarized cases
+list -  Arrange the world countries in list from most cases
+subscribe - Subscribe to daily notification updates
+donate - Donate to this project to move to fast servers
+
