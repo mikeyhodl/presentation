@@ -23,7 +23,7 @@ def plot_timeseries(data):
     plt.xlim((dates[0], dates[-1]))
     plt.ylabel("Cases")
     plt.title("New Covid-19 Cases in {} - {} Days".format(data["name"], len(data["cases"])))
-    plt.text(0, 0, "by @coronapandemicbot; based on data by JHUCSSE", fontsize=6, va="bottom", transform=ax.transAxes)
+    plt.text(0, 0, "by @Coronaviruskenyabot; based on data by JHUCSSE", fontsize=6, va="bottom", transform=ax.transAxes)
     plt.tight_layout()
     buffer = io.BytesIO()
     plt.savefig(buffer, format="png")
