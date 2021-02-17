@@ -54,7 +54,7 @@ def plot_vaccinations_series(data):
     plt.title("Daily Vaccination Doses in {} - {} Days".format(data["name"], len(vaccinations)))
     plt.text(0.01, 0.95, f"Total: {data['total']:,}", weight="bold", transform=ax.transAxes)
     plt.text(
-        0, 0, "by @coronapandemicbot; data by ourworldindata.org.", fontsize=6, va="bottom", transform=ax.transAxes
+        0, 0, "by @Coronaviruskenyabot; data by ourworldindata.org.", fontsize=6, va="bottom", transform=ax.transAxes
     )
     plt.tight_layout()
     buffer = io.BytesIO()
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     import argparse
     from statistics_api import CovidApi
 
-    parser = argparse.ArgumentParser(description="Create timeline plots used by @coronapandemicbot")
+    parser = argparse.ArgumentParser(description="Create timeline plots used by @Coronaviruskenyabot")
     parser.add_argument("type", type=str, choices=["cases", "vacc"], help="type of plot to create")
     parser.add_argument("--country", type=str, default=None, help="country to plot, world by default")
     parser.add_argument("-o", "--output", type=str, default="plot.png", help="output file, defaults to plot.png")
